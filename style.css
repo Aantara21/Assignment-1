@@ -5,6 +5,8 @@
 .header-content{
     text-align: center;
     background: url(assets/Hero-bg.png);
+    height: 450px;
+  
 }
 
 .button1{
@@ -15,12 +17,16 @@
     border-radius: 5px;
     border: none;
     margin-bottom: 50px;
+    cursor: pointer;
+    text-decoration: none;
 }
 .button2{
     padding: 10px 20px;  
     font: 400;
     color: #0D1321;
     background-color: white;
+    text-decoration: none;
+    border: solid 1px black;
 }
 .button3{
     border: none;
@@ -76,6 +82,8 @@ margin-top: 150px;
 }
 .last-section{
     background: url(assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
     margin: 0px 250px;
     margin-bottom: 70px;
     padding: 50px;
@@ -87,7 +95,7 @@ margin-top: 150px;
     border-radius: 15px;
 }
 .eemail{
-    height: 20px;
+    height: 15px;
     width: 70%;
     border-radius: 5px;
     border: none;
@@ -111,10 +119,14 @@ margin-top: 150px;
     width: 30px;
     padding: 5px;
 }
+.social-icon{
+    margin-top: 10px;
+}
 
 
 footer{
     display: flex;
     justify-content: space-around;
+    background-color: rgba(13, 19, 33, 0.03);
 }
 
