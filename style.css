@@ -1,3 +1,7 @@
+/* shared */
+.center{
+    text-align: center;
+}
 .header-content{
     text-align: center;
     background: url(assets/Hero-bg.png);
@@ -11,4 +15,24 @@
     border-radius: 5px;
     border: none;
     margin-bottom: 50px;
+}
+.button2{
+    padding: 10px 20px;  
+    font: 400;
+    color: #0D1321;
+    background-color: white;
+}
+
+/* why-web */
+.why-web{
+    margin-top: 100px;
+}
+.why1-parents{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px; */
+    margin: 100px 200px;
+    max-width: 100%;
 }
