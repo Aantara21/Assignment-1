@@ -38,5 +38,31 @@
 }
 .content{
 margin-bottom: 50px;
-margin-top: 50px;
+margin-top: 150px;
+}
+
+.item-parents{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+    margin: 50px 250px 250px 200px;
+    gap: 25px;
+}
+.items1{
+    background-color: #fff6f4;
+    text-align: left;
+    padding: 40px;
+    border-radius: 10px;
+}
+.items2{
+    background-color: #f2f6fe;
+    text-align: left;
+    padding: 40px;
+    border-radius: 10px;
+}
+.items3{
+    background-color: #fffdf2;
+    text-align: left;
+    padding: 40px;
+    border-radius: 10px;
 }
