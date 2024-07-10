@@ -22,6 +22,14 @@
     color: #0D1321;
     background-color: white;
 }
+.button3{
+    border: none;
+    color: black;
+    text-decoration: underline;
+    background: none;
+    font-weight: 700;
+    font-size: small;
+}
 
 /* why-web */
 .why-web{
@@ -45,7 +53,7 @@ margin-top: 150px;
     display: flex;
     max-width: 100%;
     justify-content: space-around;
-    margin: 50px 250px 250px 200px;
+    margin: 50px 250px 100px 250px;
     gap: 25px;
 }
 .items1{
@@ -66,3 +74,47 @@ margin-top: 150px;
     padding: 40px;
     border-radius: 10px;
 }
+.last-section{
+    background: url(assets/handshake.jpg);
+    margin: 0px 250px;
+    margin-bottom: 70px;
+    padding: 50px;
+    max-width: 100%;
+    /* font: 800; */
+    font-size: large;
+    font: 45px;
+    color: #f2f6fe;
+    border-radius: 15px;
+}
+.eemail{
+    height: 20px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.submit{
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    background-color: white;
+    font-weight: 700;
+    font-size: small; 
+}
+.img-style{
+    height: 34px;
+    width: 34px;
+}
+.icon-style{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
